@@ -1,4 +1,16 @@
 <SOPC2DTS_COMPONENTLIB vendor="ALTR">
+	<S2DComponent classname="mm_ccb"
+		group="bridge">
+	</S2DComponent>
+	<S2DComponent classname="altera_i2cslave_to_avlmm_bridge"
+		group="bridge">
+	</S2DComponent>
+	<S2DComponent classname="altera_up_avalon_to_external_bus_bridge"
+		group="bridge">
+	</S2DComponent>
+	<S2DComponent classname="altera_vic"
+		group="ignore">
+	</S2DComponent>
 	<S2DComponent classname="altera_nios2,altera_nios2_qsys" group="cpu" compatDevice="nios2">
 		<CompatibleVersion value="1.0"></CompatibleVersion> 
 		<parameter dtsName="clock-frequency" sopcName="embeddedsw.CMacro.CPU_FREQ"></parameter>
